@@ -1,0 +1,40 @@
+body {
+  background-color: #000;
+}
+
+.content {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+  color: #fff; /* Fallback color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center vertically */
+}
+
+.tagcloud--item:hover {
+  color: #36454f;
+}
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 70%; /* Increase width for better use of space */
+    font-size: 18px; /* Reduce font size for better readability */
+  }
+}
+@media screen and (max-width: 767px) {
+  .content {
+    width: 90%; /* Further increase width for better use of space */
+    font-size: 16px; /* Further reduce font size for smaller screens */
+    height: auto; /* Adjust height for better fit */
+    padding: 20px; /* Add padding for better spacing */
+  }
+}
+@media screen and (max-width: 480px) {
+  .content {
+    width: 100%; /* Full width for very small screens */
+    font-size: 14px; /* Smallest font size for very small screens */
+    padding: 10px; /* Adjust padding for very small screens */
+  }
+}
