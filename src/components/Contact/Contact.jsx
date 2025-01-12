@@ -5,7 +5,10 @@ export default function Contact() {
       <div class="lines"></div>
       <div className="contact">
         <div className="contact1">
-          <img src="https://i.postimg.cc/d3V3P1ND/04-04-4.jpg"></img>
+          <img
+            src="https://i.postimg.cc/d3V3P1ND/04-04-4.jpg"
+            alt="contact"
+          ></img>
         </div>
         <div className="contact2">
           <h2 className="contact-title">Get in Touch</h2>
