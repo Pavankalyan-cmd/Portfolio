@@ -45,7 +45,7 @@ const Certificates = () => {
   };
 
   return (
-    <div className="container-fluid mt-5">
+    <div className="container-fluid mt-5 " id="Certificates">
       <h1 className="project-title mx-4">Certificates</h1>
       <div class="lines"></div>
       <div class="container-fluid carousel-container  image__container ">

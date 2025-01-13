@@ -630,7 +630,7 @@ img {
   /* Dashboard media queries */
   .dash {
     margin: 5% 0;
-    padding: 0 2%;
+    padding: 0 1%;
     border-radius: 10px;
   }
 
@@ -640,8 +640,8 @@ img {
   }
 
   .bg {
-    margin: 2% 0;
-    padding: 5%;
+    margin: 1% 0;
+    padding: 2%;
     border-radius: 8px;
   }
 
@@ -689,7 +689,7 @@ img {
   }
 
   .carousel-item img {
-    height: 250px;
+    height: 150px;
     border-width: 2px;
     border-radius: 15px;
   }

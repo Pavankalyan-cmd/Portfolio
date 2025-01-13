@@ -2,16 +2,16 @@ import "./Education.css";
 
 export default function Education() {
   return (
-    <div className="container-fluid mt-5" id="Certificates">
+    <div className="container-fluid mt-5" id="Education">
       <div>
-        <h1 className="project-title mx-4 " style={{ textAlign: "end" }}>
+        <h1 className="project-title mx-4 " style={{ textAlign: "justify" }}>
           Education
         </h1>
         <div class="lines2"></div>
       </div>
       <div className="container-fluid mt-5 d-flex justify-content-center">
         <section className="timeline_area section_padding_130">
-          <div className="container-fluid w-100">
+          <div className="container-fluid ">
             <div className="row justify-content-center "></div>
             <div className="row">
               <div className="col-12">
@@ -31,7 +31,7 @@ export default function Education() {
                       <p>2024</p>
                     </div>
                     <div className="row">
-                      <div className="col-12 col-md-6 col-lg-9  ">
+                      <div className="col-12 col-md-8 col-lg-9  ">
                         <div
                           className="single-timeline-content d-flex wow fadeInLeft"
                           data-wow-delay="0.3s"
@@ -69,7 +69,7 @@ export default function Education() {
                       <p>2021</p>
                     </div>
                     <div className="row">
-                      <div className="col-12 col-md-6 col-lg-9">
+                      <div className="col-12 col-md-8 col-lg-9">
                         <div
                           className="single-timeline-content d-flex wow fadeInLeft"
                           data-wow-delay="0.3s"
@@ -107,10 +107,11 @@ export default function Education() {
                       <p>2016</p>
                     </div>
                     <div className="row">
-                      <div className="col-12 col-md-6 col-lg-9">
+                      <div className="col-12 col-md-8 col-lg-9">
                         <div
                           className="single-timeline-content d-flex wow fadeInLeft"
                           data-wow-delay="0.3s"
+                          id="line"
                           style={{
                             visibility: "visible",
                             animationDelay: "0.3s",

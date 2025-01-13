@@ -159,7 +159,9 @@ const VerticalCarousel = () => {
               ))}
           </div>
 
-          <p style={{ color: "#333333" }}>{images[activeIndex].description}</p>
+          <p style={{ color: "#333333", textAlign: "justify" }}>
+            {images[activeIndex].description}
+          </p>
           <div className="d-flex ">
             <ToolButton url={images[activeIndex].url1} />
             <Drivebutton url={images[activeIndex].url2} />

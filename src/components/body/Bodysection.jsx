@@ -28,7 +28,14 @@ export default function Bodysection() {
             className="typewriter thick"
             style={{ fontSize: "1.8em", fontWeight: "bolder" }}
           ></span>
-          <p style={{ color: "#333333", fontSize: "1.2em", marginTop: "1rem" }}>
+          <p
+            style={{
+              color: "#333333",
+              fontSize: "1.2em",
+              marginTop: "1rem",
+              textAlign: "justify",
+            }}
+          >
             A passionate and detail-oriented software developer with a solid
             academic background in Electrical Engineering and hands-on
             experience in creating user-friendly web and software applications.

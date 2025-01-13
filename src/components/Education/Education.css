@@ -197,7 +197,7 @@ p {
 
 @media only screen and (max-width: 479px) and (min-width: 320px) {
   .single-timeline-area {
-    padding-left: 40px;
+    padding-left: 0px;
   }
 
   .single-timeline-area .timeline-date {
@@ -206,6 +206,13 @@ p {
 
   .single-timeline-area .single-timeline-content {
     padding: 10px 10px 5px;
+  }
+
+  .timeline-date p {
+    display: none;
+  }
+  .timeline-aera {
+    display: none;
   }
 }
 
@@ -220,5 +227,12 @@ p {
 
   .single-timeline-area .single-timeline-content {
     padding: 5px 5px 2px;
+  }
+  .single-timeline-text h6,
+  p {
+    font-size: 5px;
+  }
+  .cardd {
+    width: 100%;
   }
 }

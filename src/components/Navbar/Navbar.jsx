@@ -19,8 +19,12 @@ export default function Navbar() {
             <h5>
               <a href="#Skills">Skills</a>
             </h5>
+
             <h5>
               <a href="#Certificates">Certificates</a>
+            </h5>
+            <h5>
+              <a href="#Education">Education</a>
             </h5>
             <h5>
               <a href="#contact">Contact</a>
@@ -40,22 +44,22 @@ export default function Navbar() {
                   <i class="fa-solid fa-bars"></i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li>
+                  <li className="m-2" style={{ fontWeight: "bolder" }}>
                     <a href="#home">Home</a>
                   </li>
-                  <li>
+                  <li className="m-2" style={{ fontWeight: "bolder" }}>
                     <a href="#about">About</a>
                   </li>
-                  <li>
+                  <li className="m-2" style={{ fontWeight: "bolder" }}>
                     <a href="#project">Projects</a>
                   </li>
-                  <li>
+                  <li className="m-2" style={{ fontWeight: "bolder" }}>
                     <a href="#Skills">Skills</a>
                   </li>
-                  <li>
+                  <li className="m-2" style={{ fontWeight: "bolder" }}>
                     <a href="#Certificates">Certificates</a>
                   </li>
-                  <li>
+                  <li className="m-2" style={{ fontWeight: "bolder" }}>
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>
